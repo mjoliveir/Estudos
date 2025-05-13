@@ -10,18 +10,18 @@ Escreval ("escreva um numero")
 leia (y)
 
 se y mod < 5 entao
-   y = y + 1
+   y <- y + 1
 senao
-     y = y
+     y <- y
 fimse
 
 Escreval ("escreva um numero")
 leia (x)
 
 se x MOD 2 = 0 entao
-   escreval (x, " é par")
+   escreval (x, " Ã© par")
 senao
-     escreval(x, " é impar")
+     escreval(x, " Ã© impar")
 fimse
 
 
