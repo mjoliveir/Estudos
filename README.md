@@ -1,7 +1,7 @@
 <h1 align="center">📊 Matheus • Análise, Estratégia e Inteligência de Dados</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Data Analysis gif"/>
+
 </p>
 
 <p align="center">
