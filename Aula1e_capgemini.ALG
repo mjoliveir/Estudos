@@ -1,18 +1,22 @@
-Algoritmo ""
+Algoritmo "Trabalhando com tipos"
 
 Var
-nome: caractere
-sobrenome: caractere
-nomeCompleto: caractere
+palavra, palavraA, palavraB: caractere
+numero, numeroA, numeroB: inteiro
 
 Inicio
 
-Escreval ("Informe seu nome")
-leia (nome)
-Escreval ("Informe seu sobrenome")
-leia (sobrenome)
-nomeCompleto <- nome + " " + sobrenome
-Escreval("Seu nome é ", nomeCompleto)
+Escreval ("Informe a primeira palavra")
+leia (palavra)
+Escreval ("Informe a segunda palavra")
+leia (palavraA)
+Escreval ("Informe o primeiro numero")
+leia (numero)
+Escreval ("Informe o segundo numero")
+leia (numeroA)
+palavraB <- palavra + " " + palavraA
+numeroB <- numero + numeroB
+Escreval(palavraB, numeroB)
 
 
 Fimalgoritmo
