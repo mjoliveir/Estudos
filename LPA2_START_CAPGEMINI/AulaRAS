@@ -1,0 +1,40 @@
+Algoritmo "debug"
+
+Var
+cinema : vetor[1..10,1..10] de caracter
+fila, poltrona, i, j : inteiro
+op: caracter
+
+Inicio
+para i de 1 at� 10 fa�a
+     para j de 1 at� 10 fa�a
+          cinema [i,j] <- 0
+     fimpara
+fimpara
+
+enquanto op = 0
+         escreval ("1- Reservar")
+         escreval ("2- Layout da Sala")
+         escreval ("3- Sair")
+         leia(op)
+         se op = 3 entao
+            interrompa
+         senao
+              se op = 1
+                 leia (fila)
+                 leia (poltrona)
+                 se cinema[fila, poltrona] = [1,1]
+                    escreval ("Posi��o j� ocupada")
+                    senao
+                    cinema [i,j] <- [fila,poltrona]
+                 fimse
+              senao
+              se op = 2
+                 para i de 1 at� 10 fa�a
+                      para j de 1 at� 10 fa�a
+                           escreval ("")
+                           escreva(cinema[i,j])
+                      fimpara
+                 fimpara
+              
+Fimalgoritmo
