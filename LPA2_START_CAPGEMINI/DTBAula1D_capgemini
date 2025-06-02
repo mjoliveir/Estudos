@@ -1,0 +1,24 @@
+CREATE TABLE CLIENTES
+(
+	ID INT PRIMARY KEY AUTO_INCREMENT,
+	NOME VARCHAR (20) NOT NULL,
+	CPF CHAR (11) NOT NULL,
+	DATANASCIMENTO DATE NOT NULL,
+	EMAIL VARCHAR (70) NOT NULL,
+	ATIVO BIT NOT NULL
+
+
+
+)
+
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0004 seconds.)
+CREATE TABLE CLIENTES ( ID INT PRIMARY KEY AUTO_INCREMENT, NOME VARCHAR (20) NOT NULL, CPF CHAR (11) NOT NULL, DATANASCIMENTO DATE NOT NULL, EMAIL VARCHAR (70) NOT NULL, ATIVO BIT NOT NULL ); 
+
+
+
+DATETIME é para data e hora, enquanto DATE é só apra data.
+BIT é como o operador lógico do visualg (varia entre verdadeiro e falso, apenas)
+
+INSERT INTO CLIENTES (NOME, CPF, DATANASCIMENTO, EMAIL, BIT)
+VALUES ('Matheus Jesus de Oliveira','12345678911','2004-02-13','contatomatheusjo@gmail.com', true)
