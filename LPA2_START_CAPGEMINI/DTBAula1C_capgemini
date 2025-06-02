@@ -1,0 +1,20 @@
+Editando e excluindo registros
+UPDATE CLIENTES SET EMAIL = 'marcelo@bol.com'
+WHERE ID = 2
+ 1 row affected. (Query took 0.0004 seconds.)
+UPDATE CLIENTES SET EMAIL = 'marcelo@bol.com' WHERE ID = 2; 
+
+UPDATE CLIENTE SET NOME = 'PEDRO GILBERTO COSTA'
+CPF = '90909090901'
+EMAIL = 'pedro@bol.com'
+WHERE CPF = '12345678901'
+
+ 1 row affected. (Query took 0.0003 seconds.)
+UPDATE CLIENTES SET NOME = 'PEDRO GILBERTO COSTA', CPF = '90909090901', EMAIL = 'pedro@bol.com' WHERE ID = 1; 
+//////////////////////////////////////////////////////////////////////////////////
+
+DELETE FROM CLIENTES
+WHERE ID = 2
+
+ 1 row deleted. (Query took 0.0031 seconds.)
+DELETE FROM CLIENTES WHERE ID = 2; 
