@@ -1,0 +1,15 @@
+Adicionando dados em nosso banco de dados
+
+INSERT INTO CLIENTES (NOME,CPF,EMAIL) VALUES
+		     ('JOAO DA SILVA', '90909090909', 'pedro@gmail.com')
+
+1 row inserted.
+Inserted row id: 1 (Query took 0.0004 seconds.)
+INSERT INTO CLIENTES (NOME, CPF, EMAIL) VALUES ('JOAO SILVA', '12345678901', 'pedro@gmail.com'); 
+
+INSERT INTO CLIENTES (NOME, CPF, EMAIL) VALUES
+		    ('MARCELO PROFESSOR', '1234567892', 'marcelo@outlook.com')
+
+ 1 row inserted.
+Inserted row id: 2 (Query took 0.0053 seconds.)
+INSERT INTO CLIENTES (NOME, CPF, EMAIL) VALUES ('MARCELO PROFESSOR', '1234567892', 'marcelo@outlook.com'); 
