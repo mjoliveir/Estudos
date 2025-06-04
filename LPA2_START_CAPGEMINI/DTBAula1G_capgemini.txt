@@ -1,0 +1,49 @@
+Essa aula foi de select, aparentemente deixaram o mais facil por ultimo
+
+PARA VER CERTAS INFOS DE CERTA TABELA SIMPLESMENTE DIGITE NO SQL PROMPT:
+SELECT * (* SERVE PARA VISUALIZAR TUDO DA TABELA) FROM NOMETABELA
+
+NAO É ACONSELHADO USAR O * PROFISSIONALMENTE, POIS DE FATO PUXA TODOS OS DADOS DA TABELA E VAI CAUSAR LENTIDAO DE TRAFEGO DE DADOS
+
+INNERJOIN
+O INNERJOIN PEGA DADOS DE VARIAS TABELAS E RELACIONA-OS
+INNER JOIN é um tipo de junção no SQL que retorna apenas os registros que têm correspondência nas duas tabelas envolvidas.
+Exemplo simples:
+
+Duas tabelas:
+
+Clientes
+id	nome
+1	Ana
+2	Bruno
+
+Pedidos
+id	cliente_id	produto
+1	1	        Camiseta
+2	3	        Boné
+
+Consulta:
+SELECT Clientes.nome, Pedidos.produto
+FROM Clientes
+INNER JOIN Pedidos ON Clientes.id = Pedidos.cliente_id;
+Resultado:
+nome	produto
+Ana	Camiseta
+Ou seja, o INNER JOIN só traz os dados quando há correspondência entre Clientes.id e Pedidos.cliente_id.
+Sem correspondência = não aparece no resultado.
+
+SELECT P.ID, P.DESCRICAO, P.PRECO, P.QTDESTOQUE, C.NOME
+(AQUI PODEMOS USAR 'P' E 'C' PARA ABREVIAR O NOME DA TABELA, NO CASO ESTAMOS TRATANDO DA TABELA 'PRODUTOS' E DA TABELA 'CATEGORIA')
+FROM PRODUTOS P INNER JOIN CATEGORIAS C
+(AQUI DE FATO ABREVIAMOS E PARA FAZER A CONSULTA EM DUAS TABELAS DIFERENTES ESTAMOS UTILIZANDO O INNERJOIN)
+	ON C.ID = P.CATEGORIAID
+	(ESSA SENTENÇA EXPRESSA QUAL O RELACIONAMENTO DAS TABELAS, SENDO ESTRITAMENTE NECESSARIA AO FAZER UM INNERJOIN)
+	
+SELECT P.ID, P.DESCRICAO, P.QTDESTOQUE, P.PRECO, C.ID
+FROM PRODUTOS P INNER JOIN CATEGORIAS C
+	ON C.ID = P.CATEGORIAID
+ Showing rows 0 - 1 (2 total, Query took 0.0003 seconds.)
+SELECT P.ID, P.DESCRICAO, P.QTDESTOQUE, P.PRECO, C.ID FROM PRODUTOS P INNER JOIN CATEGORIAS C ON C.ID = P.CATEGORIAID; 
+ID 	DESCRICAO 	        QTDESTOQUE 	PRECO 	ID 	
+1 	QUEIJO DO MATHEUS 	2 	        99 	1
+2 	PRESUNTO 	        1000 	        10 	1
