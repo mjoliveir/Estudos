@@ -48,6 +48,6 @@ Escolha opc
        caso 3
        Escreval ("Saindo do sistema...")
        fimescolha
-até opc = 3
+atÃ© opc = 3
 
 Fimalgoritmo
