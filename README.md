@@ -1,73 +1,60 @@
-<h1 align="center">📊 Matheus • Análise, Estratégia e Inteligência de Dados</h1>
+# 💼 Repositório de Estudos — Programa Start Capgemini
 
-<p align="center">
+> “A excelência não é um ato, mas um hábito.” — Aristóteles
 
-</p>
-
-<p align="center">
-  🎓 Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong><br>
-  🧠 Foco total em <strong>ciência de dados, automações e estratégia de negócios</strong><br>
-  📈 Transformando dados em decisões. Criando valor com lógica.
-</p>
+Seja muito bem-vindo(a) a este repositório, dedicado ao registro sistemático da minha jornada de aprendizado no **Programa Start**, promovido pela renomada empresa **Capgemini**.
 
 ---
 
-## 🧭 Sobre mim
+## 🧠 Sobre o Repositório
 
-```txt
-> "Quem domina os dados, lidera o jogo."
-```
-
-- 🔍 Perfil analítico com foco em **eficiência de processos e inteligência de negócios**
-- 🛠️ Paixão por automatizar tarefas, gerar insights e estruturar decisões com base em dados reais
-- 🧩 Combino tecnologia com visão estratégica para entregar resultados
+Este espaço foi concebido com o propósito de concentrar e organizar os conhecimentos adquiridos ao longo da minha imersão nas trilhas formativas oferecidas pelo programa, com especial ênfase nos fundamentos da lógica computacional e na linguagem de programação Java.
 
 ---
 
-## 🧠 Projetos em Destaque
+## 📚 Conteúdo Estudado
 
-| Projeto | Descrição | Tecnologias | Impacto |
-|--------|-----------|-------------|---------|
-| `gestao-de-pessoas` | Automatização e análise de desempenho em equipes de vendas | Python, planilhas dinâmicas, lógica de rankeamento | 📊 Melhoria na clareza dos indicadores de performance |
-| `prospeccao-gpa` | Automatização da prospecção de clientes no Grupo Pão de Açúcar (varejo) | n8n, Python, Salesforce (integrações) | 🚀 Aumento de 33% nas vendas em um semestre |
+### 🔹 Lógica de Programação — Módulos 1, 2 e 3
+Ao longo dos três módulos iniciais de lógica de programação, desenvolvi competências essenciais para a construção do raciocínio algorítmico, incluindo:
 
----
+- Estruturas sequenciais, condicionais e de repetição
+- Manipulação de variáveis e operadores
+- Noções de entrada e saída de dados
+- Estruturação de pseudocódigo e fluxogramas
 
-## 💼 Tecnologias Favoritas
+### 🔹 Trilha de Especialização — Java
+Dentre as trilhas de conhecimento disponibilizadas, optei por aprofundar-me em **Java**, uma das linguagens mais consolidadas e versáteis no universo da programação. Durante esta etapa, trabalhei com:
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,git" alt="Python e Git"/>
-  <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=flat&logo=salesforce&logoColor=white" alt="Salesforce"/>
-  <img src="https://img.shields.io/badge/n8n-Automation-orange?style=flat&logo=n8n&logoColor=white" alt="n8n"/>
-</div>
-
----
-
-## 🧠 Trilha Atual
-
-- Modelagem e visualização de dados 📊
-- Lógica aplicada a negócios 📈
-- Integração de dados e automações via n8n e APIs 🔗
-- Aprimorando capacidade de análise com Python 🐍
+- Sintaxe e estrutura básica da linguagem
+- Orientação a objetos: classes, atributos, métodos, herança e encapsulamento
+- Estruturas de controle e manipulação de coleções
+- Práticas de codificação limpa e modular
 
 ---
 
-## 📊 GitHub Stats
+## 🛠️ Tecnologias Utilizadas
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mjoliveir&show_icons=true&theme=gruvbox" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mjoliveir&layout=compact&theme=gruvbox" height="150"/>
-</div>
-
----
-
-## 📬 Vamos conectar?
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/matheus-jesus-de-oliveira-79a572306/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:contatomatheusjo@gmail.com"><img src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+- `Java SE` — Standard Edition
+- `VS Code` / `Eclipse IDE`
+- `Git & GitHub` para controle de versão
+- `Markdown` para documentação
 
 ---
 
-<h3 align="center">📌 Analisar, automatizar e transformar. Esse é o jogo. 📈</h3>
+## 🎯 Objetivo
+
+Este repositório representa não apenas um acervo didático, mas também uma vitrine do meu comprometimento com o aperfeiçoamento contínuo. Através dele, almejo demonstrar minha evolução técnica e minha capacidade de aplicar os conceitos aprendidos na construção de soluções lógicas e eficientes.
+
+---
+
+## 📩 Contato
+
+Caso deseje entrar em contato para sugestões, parcerias ou oportunidades:
+
+- 📧 E-mail: [contatomatheusjo@gmail.com]
+- 💼 LinkedIn: [linkedin.com/in/seu-usuario](https://www.linkedin.com/in/matheus-jesus-de-oliveira-79a572306/)
+
+---
+
+> _“Estudar não é um ato de consumir ideias, mas de criá-las e recriá-las.” — Paulo Freire_
+
