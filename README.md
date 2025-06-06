@@ -52,7 +52,7 @@ Este repositório representa não apenas um acervo didático, mas também uma vi
 Caso deseje entrar em contato para sugestões, parcerias ou oportunidades:
 
 - 📧 E-mail: [contatomatheusjo@gmail.com]
-- 💼 LinkedIn: [linkedin.com/in/seu-usuario](https://www.linkedin.com/in/matheus-jesus-de-oliveira-79a572306/)
+- 💼 LinkedIn: [linkedin](https://www.linkedin.com/in/matheus-jesus-de-oliveira-79a572306/)
 
 ---
 
