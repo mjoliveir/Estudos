@@ -1,0 +1,70 @@
+Aula 4A de LPA3
+java é uma linguagem multiplataforma e isso é um dos resultantes da fama da linguagem
+extensao .java
+JAVAC COMPILER
+BYTE CODE(.class)
+os programas em byte code sao executados por jvm, algo presente em todos os sistemas operacionais
+
+Aula 4B
+Aprendendo sobre a ide
+APACHE NETBEANS
+
+Aula 4C
+Gerenciador de dependencia
+Maven
+    Também usa XML (pom.xml).
+
+    Gerencia dependências automaticamente via repositórios como o Maven Central.
+
+    Muito usado em projetos corporativos.
+
+    Estrutura de projeto padronizada, o que facilita colaboração.
+
+    Mais "opinioso", ou seja, impõe uma forma de organizar e construir o projeto.
+
+🔧 Exemplo de dependência:
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>5.3.10</version>
+</dependency>
+gradle
+    Mais moderno e flexível.
+
+    Usa DSL em Groovy ou Kotlin (mais legível que XML).
+
+    Mais rápido com suporte a builds incrementais e em cache.
+
+    Gerencia dependências como o Maven.
+
+    Preferido em projetos Android e projetos modernos Java/Kotlin.
+
+🔧 Exemplo de dependência (Groovy):
+
+dependencies {
+    implementation 'org.springframework:spring-core:5.3.10'
+}
+
+ant
+    Mais antigo dos três.
+
+    Baseado em scripts XML.
+
+    Não tem gerenciamento automático de dependências (precisa do Ivy ou configuração manual).
+
+    Flexível, mas mais verboso.
+
+    Recomendado para quem precisa de controle total do processo de build.
+
+🔧 Exemplo de uso:
+
+<target name="compile">
+    <javac srcdir="src" destdir="build"/>
+</target>
+
+| Ferramenta | Gerencia Dependências? | Linguagem de Configuração | Ideal para...                                     |
+| ---------- | ---------------------- | ------------------------- | ------------------------------------------------- |
+| Ant        | Não (sem Ivy)          | XML                       | Projetos antigos ou builds altamente customizados |
+| Maven      | Sim                    | XML (pom.xml)             | Projetos corporativos e padronizados              |
+| Gradle     | Sim                    | Groovy ou Kotlin DSL      | Projetos modernos, especialmente Android          |
