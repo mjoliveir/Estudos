@@ -1,3 +1,4 @@
+package LPA3_START_1CAPGEMNI;
 import java.util.Scanner;
 
 public class Aula4M_CAPGEMINI {
